@@ -1,30 +1,52 @@
 :root{
-  --mainBlue:#2a2a72;
-  --lightBlue:#009ffd;
+  --mainBlue:#005086;
+  --lightBlue:#B2EBF2;
   --mainWhite:#f3f3f3;
   --mainDark:#232528;
-  --mainYellow:#ffa400;
+  --mainYellow:#BE5683;
   
 }
 
 body{
-  font-family: "Oswald", sans-serif !important;
+  font-family: 'Metal Mania', cursive !important;
+  letter-spacing: 0.1rem;
   background: var(--mainWhite) !important;
   color:var(--mainDark)!important;
 }
 
-.text-title{
-  font-family: "Permanent Marker", cursive;
-  letter-spacing: 0.3rem;
-  text-transform: uppercase;
+.title{
+  letter-spacing: 0.5rem;
+}
+
+.details{
+  
+}
+
+.product-list{
+  background-image: url('background.jpg');
+}
+
+.text{
+  font-family: 'Della Respira', serif;
+  letter-spacing: 0.1rem;
 }
 
 .text-blue{
   color:var(--mainBlue);
 }
 
+.text-blue-button{
+  color:var(--mainBlue);
+}
+.text-blue-button:hover{
+  color: var(--lightBlue) !important;
+}
+
+.text-white{
+  color:var(--mainWhite);
+}
 .text-bright{
-  color:var(--lightBlue);
+  color:var(--mainWhite);
 }
 
 .btn-black{

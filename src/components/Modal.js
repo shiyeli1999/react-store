@@ -20,10 +20,10 @@ export default class Modal extends Component {
                                 <div className="container">
                                     <div className="row">
                                         <div id="modal" className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize p-5">
-                                            <h5>item added to the cart</h5>
-                                            <img src={img} className="img-fluid" alt="product" />
+                                            <h5 className="mb-2">item added to the cart</h5>
+                                            <img src={img} className="img-fluid mb-3" alt="product" />
                                             <h5>{title}</h5>
-                                            <h5 className="text-muted">price : ${price}</h5>
+                                            <h5 className="text-blue">price : ${price}</h5>
                                             <Link to='/'>
                                                 <ButtonContainer onClick={() => closeModal()}>
                                                     store
@@ -60,7 +60,7 @@ const ModalContainer = styled.div `
     align-items: center;
     justify-content: center;
     #modal{
-        background: var(--mainWhite);
+        background: #6b8593;
     }
 
 `;
